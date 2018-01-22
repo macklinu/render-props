@@ -44,7 +44,7 @@
     "semantic-release": "^12.2.4"
   },
   "peerDependencies": {
-    "react": "^16.2.0"
+    "react": ">=16.0.0"
   },
   "dependencies": {}
 }
