@@ -1,5 +1,7 @@
 {
   "name": "@macklinu/render-props",
+  "description":
+    "A helper function to support various React render prop use cases",
   "version": "0.0.0-semantically-released",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
