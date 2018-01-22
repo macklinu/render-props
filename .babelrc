@@ -1,1 +1,11 @@
-{ "presets": ["mdu-scripts/babel", "react"] }
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "react"
+  ]
+}

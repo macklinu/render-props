@@ -1,20 +1,31 @@
 {
   "name": "render-props",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es6.js",
+  "files": ["dist"],
   "license": "MIT",
   "scripts": {
-    "build": "mdu-scripts build",
+    "build": "rollup -c",
     "test": "mdu-scripts test",
-    "lint": "mdu-scripts lint"
+    "lint": "mdu-scripts lint",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "eslint-plugin-react": "^7.5.1",
     "mdu-scripts": "^1.10.0",
     "prettier": "^1.10.2",
     "react": "^16.2.0",
-    "react-test-renderer": "^16.2.0"
+    "react-test-renderer": "^16.2.0",
+    "rollup": "^0.54.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-filesize": "^1.5.0",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-uglify": "^3.0.0"
   },
   "peerDependencies": {
     "react": "^16.2.0"
