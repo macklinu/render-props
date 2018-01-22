@@ -1,0 +1,1 @@
+{ "presets": ["mdu-scripts/babel", "react"] }

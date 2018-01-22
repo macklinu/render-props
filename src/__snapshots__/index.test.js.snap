@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`accepts children function prop 1`] = `
+<div>
+  1
+</div>
+`;
+
+exports[`accepts component prop 1`] = `
+<div>
+  1
+</div>
+`;
+
+exports[`accepts render prop 1`] = `
+<div>
+  1
+</div>
+`;
+
+exports[`throws if component props is truthy but not an object 1`] = `"Must supply truthy component props"`;
+
+exports[`throws if new props are truthy but not an object 1`] = `"Must supply new props object to forward to render component"`;
+
+exports[`throws if no component props are passed 1`] = `"Must supply truthy component props"`;
+
+exports[`throws if no new props are passed 1`] = `"Must supply new props object to forward to render component"`;
