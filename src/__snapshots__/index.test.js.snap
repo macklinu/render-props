@@ -6,13 +6,31 @@ exports[`accepts children function prop 1`] = `
 </div>
 `;
 
+exports[`accepts children function prop 2`] = `
+<div>
+  1
+</div>
+`;
+
 exports[`accepts component prop 1`] = `
 <div>
   1
 </div>
 `;
 
+exports[`accepts component prop 2`] = `
+<div>
+  1
+</div>
+`;
+
 exports[`accepts render prop 1`] = `
+<div>
+  1
+</div>
+`;
+
+exports[`accepts render prop 2`] = `
 <div>
   1
 </div>
