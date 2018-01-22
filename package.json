@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "module": "dist/index.es6.js",
   "files": ["dist"],
+  "author": "Macklin Underdown <macklinu@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
