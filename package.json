@@ -8,6 +8,9 @@
   "files": ["dist"],
   "author": "Macklin Underdown <macklinu@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "precommit": "mdu-scripts precommit",
     "build": "rollup -c",
