@@ -5,11 +5,13 @@
   "license": "MIT",
   "scripts": {
     "build": "mdu-scripts build",
-    "test": "mdu-scripts test"
+    "test": "mdu-scripts test",
+    "lint": "mdu-scripts lint"
   },
   "devDependencies": {
     "babel-preset-react": "^6.24.1",
-    "mdu-scripts": "^1.9.0",
+    "eslint-plugin-react": "^7.5.1",
+    "mdu-scripts": "^1.10.0",
     "prettier": "^1.10.2",
     "react": "^16.2.0",
     "react-test-renderer": "^16.2.0"

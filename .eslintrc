@@ -1,1 +1,9 @@
-{ "extends": "mdu-scripts/eslint.js" }
+{
+  "extends": [
+    "./node_modules/mdu-scripts/eslint.js",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "react/prop-types": "ignore"
+  }
+}
