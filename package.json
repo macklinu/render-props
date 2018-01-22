@@ -2,7 +2,7 @@
   "name": "@macklinu/render-props",
   "version": "0.0.0-semantically-released",
   "main": "dist/index.js",
-  "module": "dist/index.es6.js",
+  "module": "dist/index.es.js",
   "files": ["dist"],
   "author": "Macklin Underdown <macklinu@gmail.com>",
   "license": "MIT",
