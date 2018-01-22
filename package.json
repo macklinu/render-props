@@ -1,6 +1,6 @@
 {
   "name": "@macklinu/render-props",
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "main": "dist/index.js",
   "module": "dist/index.es6.js",
   "files": ["dist"],
