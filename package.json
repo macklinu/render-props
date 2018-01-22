@@ -7,6 +7,7 @@
   "author": "Macklin Underdown <macklinu@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "precommit": "mdu-scripts precommit",
     "build": "rollup -c",
     "test": "mdu-scripts test",
     "lint": "mdu-scripts lint",
@@ -16,7 +17,8 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "eslint-plugin-react": "^7.5.1",
-    "mdu-scripts": "^1.10.0",
+    "husky": "^0.14.3",
+    "mdu-scripts": "^1.11.1",
     "prettier": "^1.10.2",
     "react": "^16.2.0",
     "react-test-renderer": "^16.2.0",
