@@ -7,6 +7,7 @@
 [![license](https://img.shields.io/github/license/macklinu/render-props.svg)](https://github.com/macklinu/render-props/blob/master/LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -20,6 +21,7 @@
 * [Usage](#usage)
 * [API Reference](#api-reference)
   * [`renderProps(props: Object, newProps: Object): ReactElement`](#renderpropsprops-object-newprops-object-reactelement)
+* [Contributors](#contributors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -173,3 +175,17 @@ And now you can use all cases:
 * `newProps`: The props object passed into the render prop function (`component`, `render`, or `children`), which can be used by consumer components for rendering a React element.
 
 Returns the React element returned from the `component`, `render`, or `children` prop. If none of those props are provided, returns `null`.
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
+<!-- prettier-ignore -->
+| [<img src="https://avatars1.githubusercontent.com/u/2344137?v=4" width="100px;"/><br /><sub><b>Macklin Underdown</b></sub>](http://macklin.underdown.me)<br />[💻](https://github.com/macklinu/render-props/commits?author=macklinu "Code") [📖](https://github.com/macklinu/render-props/commits?author=macklinu "Documentation") [⚠️](https://github.com/macklinu/render-props/commits?author=macklinu "Tests") |
+| :---: |
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
