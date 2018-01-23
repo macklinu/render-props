@@ -16,6 +16,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": ["react", "render-props"],
   "scripts": {
     "precommit": "mdu-scripts precommit",
     "build": "rollup -c",
