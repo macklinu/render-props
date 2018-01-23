@@ -8,6 +8,21 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+* [Motivation](#motivation)
+* [Installation](#installation)
+* [Example](#example)
+* [Usage](#usage)
+* [API Reference](#api-reference)
+  * [`renderProps(props: Object, newProps: Object): ReactElement`](#renderpropsprops-object-newprops-object-reactelement)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Motivation
 
 If you're building React components using [render props](https://reactjs.org/docs/render-props.html), this library aims to simplify various render prop use cases.
@@ -20,7 +35,9 @@ npm install @macklinu/render-props
 
 ## Example
 
-See [this CodeSandbox](https://codesandbox.io/s/zw08xmk5yl) for an example.
+See [this CodeSandbox](https://codesandbox.io/s/zw08xmk5yl) for an in-browser example.
+
+See [`src/types/example.tsx`]() for a TypeScript example and using the provided TypeScript types.
 
 ## Usage
 
