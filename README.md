@@ -39,7 +39,7 @@ npm install @macklinu/render-props
 
 See [this CodeSandbox](https://codesandbox.io/s/zw08xmk5yl) for an in-browser example.
 
-See [`src/types/example.tsx`]() for a TypeScript example and using the provided TypeScript types.
+See [`src/types/example.tsx`](https://github.com/macklinu/render-props/blob/master/types/example.tsx) for a TypeScript example and using the provided TypeScript types.
 
 ## Usage
 
