@@ -5,5 +5,8 @@
   ],
   "rules": {
     "react/prop-types": "ignore"
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
