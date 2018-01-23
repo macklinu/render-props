@@ -6,6 +6,7 @@
   "rules": {
     "react/prop-types": "ignore"
   },
+  "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module"
   }
