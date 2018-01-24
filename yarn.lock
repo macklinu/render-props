@@ -3190,7 +3190,7 @@ jest-worker@^22.1.0:
   dependencies:
     merge-stream "^1.0.1"
 
-jest@^22.1.2:
+jest@^22.1.4:
   version "22.1.4"
   resolved "https://registry.yarnpkg.com/jest/-/jest-22.1.4.tgz#9ec71373a38f40ff92a3e5e96ae85687c181bb72"
   dependencies:
@@ -3562,13 +3562,14 @@ marked@^0.3.9:
   version "0.3.12"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.12.tgz#7cf25ff2252632f3fe2406bde258e94eee927519"
 
-mdu-scripts@^1.11.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/mdu-scripts/-/mdu-scripts-1.11.1.tgz#1a3bebf2d8245292055fe7b66993ff333f3455f9"
+mdu-scripts@^1.11.2:
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/mdu-scripts/-/mdu-scripts-1.11.2.tgz#62d33fcc9e0267ad71ee5ae3ad407668e2f835ed"
   dependencies:
     arrify "^1.0.1"
     babel-cli "^6.26.0"
     babel-core "^6.26.0"
+    babel-eslint "^8.2.1"
     babel-jest "^22.1.0"
     babel-preset-env "^1.6.1"
     babel-preset-stage-2 "^6.24.1"
@@ -3580,7 +3581,7 @@ mdu-scripts@^1.11.1:
     execa "^0.9.0"
     glob "^7.1.2"
     is-ci "^1.1.0"
-    jest "^22.1.2"
+    jest "^22.1.4"
     lint-staged "^6.0.1"
     lodash.has "^4.5.2"
     prettier "^1.10.2"
