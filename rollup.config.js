@@ -10,6 +10,7 @@ const createOutput = options => ({
   globals: {
     react: 'React',
   },
+  sourcemap: true,
   ...options,
 })
 
@@ -20,7 +21,6 @@ export default {
     createOutput({ file: 'dist/index.es.js', format: 'es' }),
     createOutput({ file: 'dist/index.umd.js', format: 'umd' }),
   ],
-  sourceMap: true,
   external: ['react'],
   plugins: [resolve(), commonjs(), babel(), sourceMaps(), filesize(), uglify()],
 }
