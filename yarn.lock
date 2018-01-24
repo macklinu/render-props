@@ -3562,9 +3562,9 @@ marked@^0.3.9:
   version "0.3.12"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.12.tgz#7cf25ff2252632f3fe2406bde258e94eee927519"
 
-mdu-scripts@^1.11.2:
-  version "1.11.2"
-  resolved "https://registry.yarnpkg.com/mdu-scripts/-/mdu-scripts-1.11.2.tgz#62d33fcc9e0267ad71ee5ae3ad407668e2f835ed"
+mdu-scripts@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/mdu-scripts/-/mdu-scripts-2.0.0.tgz#53b173de01f46a2da458aec275d16c6860cba987"
   dependencies:
     arrify "^1.0.1"
     babel-cli "^6.26.0"
@@ -3572,6 +3572,7 @@ mdu-scripts@^1.11.2:
     babel-eslint "^8.2.1"
     babel-jest "^22.1.0"
     babel-preset-env "^1.6.1"
+    babel-preset-react "^6.24.1"
     babel-preset-stage-2 "^6.24.1"
     chalk "^2.3.0"
     common-tags "^1.7.2"
