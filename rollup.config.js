@@ -5,14 +5,15 @@ import filesize from 'rollup-plugin-filesize'
 import sourceMaps from 'rollup-plugin-sourcemaps'
 import uglify from 'rollup-plugin-uglify'
 
-const createOutput = options => ({
-  name: 'renderProps',
-  globals: {
-    react: 'React',
-  },
-  sourcemap: true,
-  ...options,
-})
+const createOutput = options => {
+  return Object.assign(options, {
+    name: 'renderProps',
+    globals: {
+      react: 'React',
+    },
+    sourcemap: true,
+  })
+}
 
 export default {
   input: 'src/index.js',
