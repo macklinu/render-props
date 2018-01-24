@@ -28,12 +28,11 @@
   },
   "devDependencies": {
     "@types/react": "^16.0.34",
-    "babel-eslint": "^8.2.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "eslint-plugin-react": "^7.5.1",
     "husky": "^0.14.3",
-    "mdu-scripts": "^1.11.1",
+    "mdu-scripts": "^1.11.2",
     "prettier": "^1.10.2",
     "react": "^16.2.0",
     "react-test-renderer": "^16.2.0",
