@@ -20,7 +20,7 @@
 * [Example](#example)
 * [Usage](#usage)
 * [API Reference](#api-reference)
-  * [`renderProps(props: Object, newProps: Object): ReactElement`](#renderpropsprops-object-newprops-object-reactelement)
+  * [`renderProps(props: Object, newProps: any): ReactElement`](#renderpropsprops-object-newprops-any-reactelement)
 * [Contributors](#contributors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -169,10 +169,10 @@ And now you can use all cases:
 
 ## API Reference
 
-### `renderProps(props: Object, newProps: Object): ReactElement`
+### `renderProps(props: Object, newProps: any): ReactElement`
 
 * `props`: The [`props`](https://reactjs.org/docs/react-component.html#props) object from a React component
-* `newProps`: The props object passed into the render prop function (`component`, `render`, or `children`), which can be used by consumer components for rendering a React element.
+* `newProps`: The new props passed into the render prop function (`component`, `render`, or `children`), which can be used by consumer components for rendering a React element.
 
 Returns the React element returned from the `component`, `render`, or `children` prop. If none of those props are provided, returns `null`.
 
