@@ -48,26 +48,28 @@ test('renders null if render functions are not passed to component', () => {
   expect(render(<Counter />)).toBeNull()
 })
 
+test('forwarded props can be of any type', () => {
+  const Stringify = props => {
+    return renderProps(props, JSON.stringify(props.value, null, 0))
+  }
+
+  expect(
+    render(
+      <Stringify value={{ hello: 'world' }}>
+        {string => <pre>{string}</pre>}
+      </Stringify>
+    )
+  ).toMatchSnapshot()
+})
+
 test('throws if no component props are passed', () => {
   const InvalidComponent = _props => renderProps(null, { any: 'any' })
 
   expect(() => render(<InvalidComponent />)).toThrowErrorMatchingSnapshot()
 })
 
-test('throws if no new props are passed', () => {
-  const InvalidComponent = props => renderProps(props)
-
-  expect(() => render(<InvalidComponent />)).toThrowErrorMatchingSnapshot()
-})
-
 test('throws if component props is truthy but not an object', () => {
   const InvalidComponent = _props => renderProps('nope', { any: 'any' })
-
-  expect(() => render(<InvalidComponent />)).toThrowErrorMatchingSnapshot()
-})
-
-test('throws if new props are truthy but not an object', () => {
-  const InvalidComponent = props => renderProps(props, 'nope')
 
   expect(() => render(<InvalidComponent />)).toThrowErrorMatchingSnapshot()
 })

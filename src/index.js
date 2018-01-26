@@ -4,11 +4,6 @@ export default function renderProps(props, newProps) {
   if (!isObject(props)) {
     throw new Error('Must supply truthy component props')
   }
-  if (!isObject(newProps)) {
-    throw new Error(
-      'Must supply new props object to forward to render component'
-    )
-  }
 
   if (props.component) {
     return React.createElement(props.component, newProps)
