@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "./node_modules/mdu-scripts/eslint.js",
-    "plugin:react/recommended"
-  ],
+  "extends": ["./node_modules/mdu-scripts/eslint.js"],
   "rules": {
     "react/prop-types": "ignore"
   }

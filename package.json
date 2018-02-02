@@ -19,6 +19,7 @@
   "keywords": ["react", "render-props"],
   "scripts": {
     "precommit": "mdu-scripts precommit",
+    "commitmsg": "mdu-scripts commitmsg",
     "build": "BUILD_ROLLUP=true rollup -c",
     "test": "mdu-scripts test",
     "lint": "mdu-scripts lint",
@@ -30,7 +31,7 @@
     "@types/react": "^16.0.34",
     "eslint-plugin-react": "^7.5.1",
     "husky": "^0.14.3",
-    "mdu-scripts": "^2.0.0",
+    "mdu-scripts": "^2.5.1",
     "prettier": "^1.10.2",
     "react": "^16.2.0",
     "react-test-renderer": "^16.2.0",
@@ -48,6 +49,5 @@
   },
   "peerDependencies": {
     "react": ">=16.0.0"
-  },
-  "dependencies": {}
+  }
 }
